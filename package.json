@@ -1,25 +1,5 @@
 {
-  "name": "petlibs",
-  "version": "1.0.0",
-  "description": "PetLibs is a fun interactive way to search for pets",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CassiG/PetLibs.git"
-  },
-  "author": "Cassi Gallagher",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CassiG/PetLibs/issues"
-  },
-  "homepage": "https://github.com/CassiG/PetLibs#readme",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "dotenv": "^4.0.0",
-    "ejs": "^2.5.7",
-    "express": "^4.15.4"
-  }
+  "name": "app",
+  "private": true,
+  "dependencies": {}
 }

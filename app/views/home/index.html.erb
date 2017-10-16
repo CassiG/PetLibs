@@ -4,5 +4,6 @@
 <%= form_tag("/pets", method: "get") do %>
 Pet:  <%= text_field_tag(:type) %>
 Location: <%= text_field_tag(:location) %>
+Description: <%= text_field_tag(:description) %>
 <%= submit_tag("Search") %>
 <% end %>

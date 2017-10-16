@@ -1,12 +1,9 @@
 <h1>Pets</h1>
 
-<% @pets.each do |pet| %>
+<% @petList.each do |pet| %>
+
 <ul>
-  <li><% pet['media']['photos']['photo'].each do |photo| %>
-    <%if (photo['@size'] == 'x') %>
-      <img src="<%= photo['$t'] %>" alt=""> 
-    <% end %>
-    <% end %>
+  <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
     <br />
     <%= pet['name']['$t'] %><br />
    <%= pet['description']['$t'] %></li>

@@ -2,6 +2,13 @@
 
 <% @pets.each do |pet| %>
 <ul>
-  <li><%= pet['description']['$t'] %></li>
+  <li><% pet['media']['photos']['photo'].each do |photo| %>
+    <%if (photo['@size'] == 'x') %>
+      <img src="<%= photo['$t'] %>" alt=""> 
+    <% end %>
+    <% end %>
+    <br />
+    <%= pet['name']['$t'] %><br />
+   <%= pet['description']['$t'] %></li>
 </ul>
 <% end %>

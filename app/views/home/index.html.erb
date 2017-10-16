@@ -1,7 +1,8 @@
 <h1>PetLibs</h1>
 
-<%= form_for(@pet, url: pets_path) do |f| %>
-Pet:  <%= f.text_field :type %>
-Location: <%= f.text_field :location %>
-<%= f.submit %>
+
+<%= form_tag("/pets", method: "get") do %>
+Pet:  <%= text_field_tag(:type) %>
+Location: <%= text_field_tag(:location) %>
+<%= submit_tag("Search") %>
 <% end %>

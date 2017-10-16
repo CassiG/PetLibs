@@ -1,0 +1,7 @@
+<h1>Pets</h1>
+
+<% @pets.each do |pet| %>
+<ul>
+  <li><%= pet['description']['$t'] %></li>
+</ul>
+<% end %>

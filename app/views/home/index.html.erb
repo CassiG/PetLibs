@@ -1,1 +1,7 @@
 <h1>PetLibs</h1>
+
+<%= form_for(@pet, url: pets_path) do |f| %>
+Pet:  <%= f.text_field :type %>
+Location: <%= f.text_field :location %>
+<%= f.submit %>
+<% end %>

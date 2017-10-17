@@ -2928,3 +2928,140 @@ Processing by PetsController#index as HTML
 Completed 200 OK in 419ms (Views: 23.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-16 19:11:07 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 60ms (Views: 57.5ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Leia&name=Leia&activity=car+rides&name=Leia&adjective=silly&food=cookies&treat=pumpkin&name=Leia&adjective1=cuddling&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:11:46 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Leia", "activity"=>"car rides", "adjective"=>"silly", "food"=>"cookies", "treat"=>"pumpkin", "adjective1"=>"cuddling", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 628ms (Views: 35.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 19:12:59 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 109ms (Views: 82.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 19:13:01 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 61ms (Views: 45.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 19:13:05 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 26.3ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Leia&name=Leia&activity=car+rides&name=Leia&adjective=silly&food=cookies&treat=cookies&name=Leia&adjective1=cuddling&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:13:38 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Leia", "activity"=>"car rides", "adjective"=>"silly", "food"=>"cookies", "treat"=>"cookies", "adjective1"=>"cuddling", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 858ms (Views: 35.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 19:14:29 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 45ms (Views: 43.1ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Name&name=Name&activity=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:14:36 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1647ms (Views: 28.7ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Name&name=Name&activity=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:14:49 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 581ms (Views: 30.9ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Tammie&name=Name&activity=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:15:02 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 455ms (Views: 35.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 19:15:40 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 29.4ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Tammie&name=Name&activity=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:15:47 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 517ms (Views: 25.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 19:16:01 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 30.4ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Tammie&name=Name&activity=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:16:09 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 521ms (Views: 31.1ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Tammie&name=Name&activity=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:17:03 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 511ms (Views: 28.2ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Tammie&name=Name&activity=car+rides&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:17:31 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"car rides", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1453ms (Views: 51.5ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Tammie&name=Name&activity=car+rides&name=Name&adjective=silly&food=Food&treat=Treat&name=Name&adjective1=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:17:54 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"car rides", "adjective"=>"silly", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 662ms (Views: 49.5ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Tammie&name=Name&activity=car&name=Name&adjective=silly&food=Food&treat=Treat&name=Name&adjective1=fun&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 19:19:27 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity"=>"car", "adjective"=>"silly", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"fun", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 702ms (Views: 47.4ms)
+
+

@@ -1,18 +1,64 @@
 <h1>Pets</h1>
 
-<% if @pets != nil %>
-  <% @pets.each do |pet| %>
-
+<% if @petNameList != [] %>
+<%= @petNameList %>
+<h2>A new friend by name:</h2>
+  <% @petNameList.each do |pet| %>
     <ul>
-
-      <% if pet['media']['photos'] %>
-        <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
-      <% end %>
+      <li>
+        <% if pet['media']['photos'] %>
+          <img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+        <% end %>
         <%= pet['name']['$t'] %><br />
-       <%= pet['description']['$t'] %></li>
+        <%= pet['description']['$t'] %>
+     </li>
     </ul>
+  <% end %>
+<% end %>
 
+<% if @petDescriptionList != nil %>
+<h2>A new friend who loves what you do:</h2>
+  <% @petDescriptionList.each do |pet| %>
+    <ul>
+      <li>
+        <% if pet['media']['photos'] %>
+          <img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+        <% end %>
+        <%= pet['name']['$t'] %><br />
+        <%= pet['description']['$t'] %>
+     </li>
+    </ul>
+  <% end %>
+<% end %>
+
+<% if @petFoodList != nil %>
+<h2>A new friend who loves your favorite food:</h2>
+  <% @petFoodList.each do |pet| %>
+    <ul>
+      <li>
+        <% if pet['media']['photos'] %>
+          <img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+        <% end %>
+        <%= pet['name']['$t'] %><br />
+        <%= pet['description']['$t'] %>
+     </li>
+    </ul>
+  <% end %>
+<% end %>
+
+<% if @petList != nil %>
+<h2>A new friend for you:</h2>
+  <% @petList.each do |pet| %>
+    <ul>
+      <li>
+        <% if pet['media']['photos'] %>
+          <img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+        <% end %>
+        <%= pet['name']['$t'] %><br />
+        <%= pet['description']['$t'] %>
+     </li>
+    </ul>
   <% end %>
 <% else %>
-  No animals match your story, try another!
+  "No friends match your "
 <% end %>

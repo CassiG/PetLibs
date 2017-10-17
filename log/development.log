@@ -1818,3 +1818,186 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 35ms (Views: 32.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:59:26 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 255ms (Views: 242.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:00:30 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 89ms (Views: 86.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:00:38 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 57ms (Views: 53.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:04:53 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 79ms (Views: 77.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:05:37 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 77ms (Views: 74.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:05:51 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 60.1ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=1&animal=1&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this" for 127.0.0.1 at 2017-10-16 18:06:02 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"1", "animal"=>"1", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/pets_controller.rb:7:in `+'
+app/controllers/pets_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:06:21 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 47ms (Views: 44.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:06:31 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:06:36 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 22.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:06:47 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 54ms (Views: 51.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:08:15 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 156ms (Views: 146.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:08:27 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 107ms (Views: 103.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:08:37 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 57ms (Views: 54.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:08:42 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 53ms (Views: 50.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:08:51 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 61ms (Views: 58.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:09:12 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 54ms (Views: 50.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:09:22 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 74ms (Views: 71.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:09:31 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 59ms (Views: 57.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:10:12 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 55ms (Views: 53.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:11:07 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 78ms (Views: 73.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:11:47 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 50ms (Views: 46.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:13:10 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 121ms (Views: 111.7ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=1&animal=3&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:13:45 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"1", "animal"=>"3", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/pets_controller.rb:7:in `+'
+app/controllers/pets_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:14:11 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 143ms (Views: 139.8ms)
+
+

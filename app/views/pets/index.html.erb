@@ -1,11 +1,18 @@
 <h1>Pets</h1>
 
-<% @petList.each do |pet| %>
+<% if @pets != nil %>
+  <% @pets.each do |pet| %>
 
-<ul>
-  <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
-    <br />
-    <%= pet['name']['$t'] %><br />
-   <%= pet['description']['$t'] %></li>
-</ul>
+    <ul>
+
+      <% if pet['media']['photos'] %>
+        <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+      <% end %>
+        <%= pet['name']['$t'] %><br />
+       <%= pet['description']['$t'] %></li>
+    </ul>
+
+  <% end %>
+<% else %>
+  No animals match your story, try another!
 <% end %>

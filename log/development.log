@@ -2001,3 +2001,818 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 143ms (Views: 139.8ms)
 
 
+Started GET "/pets?utf8=%E2%9C%93&animal-size=1&animal=1&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:15:47 -0700
+  
+ActionController::RoutingError (undefined local variable or method `params' for PetsController:Class):
+  
+app/controllers/pets_controller.rb:6:in `<class:PetsController>'
+app/controllers/pets_controller.rb:4:in `<top (required)>'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=1&animal=1&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:16:05 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"1", "animal"=>"1", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/pets_controller.rb:8:in `+'
+app/controllers/pets_controller.rb:8:in `index'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=1&animal=1&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:18:19 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"1", "animal"=>"1", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/pets_controller.rb:8:in `+'
+app/controllers/pets_controller.rb:8:in `index'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=1&animal=1&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:18:32 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"1", "animal"=>"1", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/pets_controller.rb:8:in `+'
+app/controllers/pets_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:19:57 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 66ms (Views: 62.0ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:20:05 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 616ms (Views: 22.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:20:42 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 50ms (Views: 47.5ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=car+rides&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:20:52 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"car rides", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 643ms (Views: 24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:21:27 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 75ms (Views: 72.0ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:21:33 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 552ms (Views: 28.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:21:44 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 42ms (Views: 38.5ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:21:52 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 536ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    3: <% @pets.each do |pet| %>
+    4: 
+    5: <ul>
+    6:   <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
+    7:     <br />
+    8:     <%= pet['name']['$t'] %><br />
+    9:    <%= pet['description']['$t'] %></li>
+  
+app/views/pets/index.html.erb:6:in `block in _app_views_pets_index_html_erb__358274236351081389_70201753826800'
+app/views/pets/index.html.erb:3:in `each'
+app/views/pets/index.html.erb:3:in `_app_views_pets_index_html_erb__358274236351081389_70201753826800'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:22:01 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 30.1ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=L&animal=dog&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:22:08 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"L", "animal"=>"dog", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 508ms (Views: 34.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:23:23 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 63ms (Views: 60.7ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:23:28 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 498ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    3: <% @pets.each do |pet| %>
+    4: 
+    5: <ul>
+    6:   <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
+    7:     <br />
+    8:     <%= pet['name']['$t'] %><br />
+    9:    <%= pet['description']['$t'] %></li>
+  
+app/views/pets/index.html.erb:6:in `block in _app_views_pets_index_html_erb__358274236351081389_70201737900520'
+app/views/pets/index.html.erb:3:in `each'
+app/views/pets/index.html.erb:3:in `_app_views_pets_index_html_erb__358274236351081389_70201737900520'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:24:32 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 41ms (Views: 38.8ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:24:38 -0700
+  
+SyntaxError (/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/controllers/pets_controller.rb:13: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/controllers/pets_controller.rb:15: syntax error, unexpected '}', expecting keyword_end
+    } else {
+     ^
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/controllers/pets_controller.rb:16: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/pets_controller.rb:13: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'
+app/controllers/pets_controller.rb:15: syntax error, unexpected '}', expecting keyword_end
+app/controllers/pets_controller.rb:16: syntax error, unexpected '\n', expecting =>
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:25:35 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (18.1ms)
+Completed 500 Internal Server Error in 814ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    3: <% @pets.each do |pet| %>
+    4: 
+    5: <ul>
+    6:   <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
+    7:     <br />
+    8:     <%= pet['name']['$t'] %><br />
+    9:    <%= pet['description']['$t'] %></li>
+  
+app/views/pets/index.html.erb:6:in `block in _app_views_pets_index_html_erb__358274236351081389_70201686424800'
+app/views/pets/index.html.erb:3:in `each'
+app/views/pets/index.html.erb:3:in `_app_views_pets_index_html_erb__358274236351081389_70201686424800'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:25:38 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 83ms (Views: 79.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:25:41 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 81ms (Views: 77.8ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:25:47 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 849ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    3: <% @pets.each do |pet| %>
+    4: 
+    5: <ul>
+    6:   <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
+    7:     <br />
+    8:     <%= pet['name']['$t'] %><br />
+    9:    <%= pet['description']['$t'] %></li>
+  
+app/views/pets/index.html.erb:6:in `block in _app_views_pets_index_html_erb__358274236351081389_70201737617020'
+app/views/pets/index.html.erb:3:in `each'
+app/views/pets/index.html.erb:3:in `_app_views_pets_index_html_erb__358274236351081389_70201737617020'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:26:05 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 43ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:27:04 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 53ms (Views: 49.8ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:27:10 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (577.9ms)
+Completed 500 Internal Server Error in 1084ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `nill' for #<#<Class:0x007fb23b475500>:0x007fb2350ff688>
+Did you mean?  nil?):
+    1: <h1>Pets</h1>
+    2: 
+    3: <% if @pets != nill %>
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:   <ul>
+  
+app/views/pets/index.html.erb:3:in `_app_views_pets_index_html_erb__358274236351081389_70201737720800'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:27:26 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 48.0ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:27:33 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 550ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:   <ul>
+    7:     <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
+    8:       <br />
+    9:       <%= pet['name']['$t'] %><br />
+   10:      <%= pet['description']['$t'] %></li>
+  
+app/views/pets/index.html.erb:7:in `block in _app_views_pets_index_html_erb__358274236351081389_70201755161920'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201755161920'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:27:59 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 417ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     5:   @pets
+     6: 
+     7:   <ul>
+     8:     <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' >
+     9:       <br />
+    10:       <%= pet['name']['$t'] %><br />
+    11:      <%= pet['description']['$t'] %></li>
+  
+app/views/pets/index.html.erb:8:in `block in _app_views_pets_index_html_erb__358274236351081389_70201743369900'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201743369900'
+Started GET "/" for 127.0.0.1 at 2017-10-16 18:28:16 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 59ms (Views: 56.9ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:28:21 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 757ms (Views: 38.2ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:28:58 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 713ms (Views: 37.2ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:29:10 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 468ms (Views: 26.9ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:29:17 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 519ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: 
+    3: <% if @pets != nil %>
+    4:   <% @pets.each do |pet| %>
+    5:   <%= pet['media']['photos'][2] %>
+    6: 
+    7:   <% end %>
+    8: <% else %>
+  
+app/views/pets/index.html.erb:5:in `block in _app_views_pets_index_html_erb__358274236351081389_70201735889200'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201735889200'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:29:25 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 595ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: 
+    3: <% if @pets != nil %>
+    4:   <% @pets.each do |pet| %>
+    5:   <%= pet['media']['photos']['photo'] %>
+    6: 
+    7:   <% end %>
+    8: <% else %>
+  
+app/views/pets/index.html.erb:5:in `block in _app_views_pets_index_html_erb__358274236351081389_70201775137240'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201775137240'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:29:33 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 660ms (Views: 55.1ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:29:55 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 973ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: 
+    3: <% if @pets != nil %>
+    4:   <% @pets.each do |pet| %>
+    5:   <%= pet['media']['photos']['photo'] %>
+    6: 
+    7:   <% end %>
+    8: <% else %>
+  
+app/views/pets/index.html.erb:5:in `block in _app_views_pets_index_html_erb__358274236351081389_70201740470920'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201740470920'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:30:03 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 492ms (Views: 46.5ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:32:07 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 466ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: 
+    3: <% if @pets != nil %>
+    4:   <% @pets.each do |pet| %>
+    5:   <%= pet['media']['photos']["photo"] %>
+    6: 
+    7:   <% end %>
+    8: <% else %>
+  
+app/views/pets/index.html.erb:5:in `block in _app_views_pets_index_html_erb__358274236351081389_70201753368940'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201753368940'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:32:19 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 661ms
+
+
+  
+ActionView::Template::Error (undefined method `photo' for #<Hash:0x007fb2352e9ca0>):
+    2: 
+    3: <% if @pets != nil %>
+    4:   <% @pets.each do |pet| %>
+    5:   <%= pet['media']['photos'].photo %>
+    6: 
+    7:   <% end %>
+    8: <% else %>
+  
+app/views/pets/index.html.erb:5:in `block in _app_views_pets_index_html_erb__358274236351081389_70201743486000'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201743486000'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:32:33 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 579ms (Views: 60.2ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:32:43 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 567ms (Views: 24.3ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=dog&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:32:53 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"dog", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 990ms (Views: 25.9ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:33:05 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 693ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: 
+    3: <% if @pets != nil %>
+    4:   <% @pets.each do |pet| %>
+    5:   <%= pet['media']['photos']['photo'] %>
+    6: 
+    7:   <% end %>
+    8: <% else %>
+  
+app/views/pets/index.html.erb:5:in `block in _app_views_pets_index_html_erb__358274236351081389_70201779342020'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201779342020'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:33:13 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 762ms (Views: 44.5ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=M&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:34:22 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"M", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 917ms (Views: 31.4ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:34:28 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 611ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:     <ul>
+    7:       <% if pet['media']['photos']['photo'] != nil %>
+    8:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+    9:       <% end %>
+   10:         <%= pet['name']['$t'] %><br />
+  
+app/views/pets/index.html.erb:7:in `block in _app_views_pets_index_html_erb__358274236351081389_70201743294400'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201743294400'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:35:46 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 609ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:     <ul>
+    7:       <% if pet['media']['photos']['photo'] != [] %>
+    8:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+    9:       <% end %>
+   10:         <%= pet['name']['$t'] %><br />
+  
+app/views/pets/index.html.erb:7:in `block in _app_views_pets_index_html_erb__358274236351081389_70201718675520'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201718675520'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:36:45 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 577ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:     <ul>
+    7:       <%= pet['media']['photos']['photo']  %>
+    8:       <% if pet['media']['photos']['photo'] != [] %>
+    9:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+   10:       <% end %>
+  
+app/views/pets/index.html.erb:7:in `block in _app_views_pets_index_html_erb__358274236351081389_70201779082260'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201779082260'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:36:57 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 856ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:     <ul>
+    7:       <%= pet['media']['photos']['photo']  %>
+    8: 
+    9:     </ul>
+   10: 
+  
+app/views/pets/index.html.erb:7:in `block in _app_views_pets_index_html_erb__358274236351081389_70201755272180'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201755272180'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:39:06 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (18.0ms)
+Completed 500 Internal Server Error in 1162ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:     <ul>
+    7:       <%= pet['photos']['photo']  %>
+    8:       <% if pet['media']['photos']['photo'] != [] %>
+    9:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+   10:       <% end %>
+  
+app/views/pets/index.html.erb:7:in `block in _app_views_pets_index_html_erb__358274236351081389_70201754237400'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201754237400'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:42:27 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 535ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:   <% @pets.each do |pet| %>
+    5: 
+    6:     <ul>
+    7:       <%= pet['media']['photos']['photo']  %>
+    8:       <% if pet['media']['photos']['photo'] != [] %>
+    9:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+   10:       <% end %>
+  
+app/views/pets/index.html.erb:7:in `block in _app_views_pets_index_html_erb__358274236351081389_70201700238740'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201700238740'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:42:49 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 465ms (Views: 63.9ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:42:56 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 606ms (Views: 26.3ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:43:08 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 542ms (Views: 24.2ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:43:18 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 573ms (Views: 150.6ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:43:28 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 595ms (Views: 38.8ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:43:40 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 512ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     5: 
+     6:     <ul>
+     7: 
+     8:       <% if pet['media']['photos']['photo'] != [] %>
+     9:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+    10:       <% end %>
+    11:         <%= pet['name']['$t'] %><br />
+  
+app/views/pets/index.html.erb:8:in `block in _app_views_pets_index_html_erb__358274236351081389_70201778855860'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201778855860'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:43:54 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 371ms
+
+
+  
+SyntaxError (/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:8: syntax error, unexpected '='
+'.freeze;       if pet['media']['photos']['photo'] !== nil 
+                                                      ^
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/pets/index.html.erb:8: syntax error, unexpected '='
+app/views/pets/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:44:53 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 905ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     5: 
+     6:     <ul>
+     7: 
+     8:       <% if pet['media']['photos']['photo'].present? %>
+     9:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+    10:       <% end %>
+    11:         <%= pet['name']['$t'] %><br />
+  
+app/views/pets/index.html.erb:8:in `block in _app_views_pets_index_html_erb__358274236351081389_70201722569060'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201722569060'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:45:23 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 356ms
+
+
+  
+SyntaxError (/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:8: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...d=( if pet['media']['photos'] );@output_buffer.safe_append='
+...                               ^
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;       end 
+                   ^
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:15: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/pets/index.html.erb:22: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/pets/index.html.erb:8: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/pets/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+app/views/pets/index.html.erb:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/pets/index.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+app/views/pets/index.html.erb:20: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pets/index.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:45:37 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 444ms (Views: 59.8ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:46:03 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 800ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     6:     <ul>
+     7: 
+     8: 
+     9:         <li><img src="<%= pet['media']['photos']['photo'][2]['$t'] %>" alt='<%= pet['animal']['$t']%>' ><br />
+    10:         <%= pet['name']['$t'] %><br />
+    11:        <%= pet['description']['$t'] %></li>
+    12:     </ul>
+  
+app/views/pets/index.html.erb:9:in `block in _app_views_pets_index_html_erb__358274236351081389_70201766367800'
+app/views/pets/index.html.erb:4:in `each'
+app/views/pets/index.html.erb:4:in `_app_views_pets_index_html_erb__358274236351081389_70201766367800'
+Started GET "/pets?utf8=%E2%9C%93&animal-size=S&animal=cat&name=Name&name=Name&activity1=Activity+Name&activity2=Activity+Name&name=Name&adjective=Adjective&food=Food&treat=Treat&name=Name&adjective1=Adjective&adjective2=Adjective&commit=Find+a+friend+just+like+this%21" for 127.0.0.1 at 2017-10-16 18:46:12 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "animal-size"=>"S", "animal"=>"cat", "name"=>"Name", "activity1"=>"Activity Name", "activity2"=>"Activity Name", "adjective"=>"Adjective", "food"=>"Food", "treat"=>"Treat", "adjective1"=>"Adjective", "adjective2"=>"Adjective", "commit"=>"Find a friend just like this!"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 436ms (Views: 46.5ms)
+
+

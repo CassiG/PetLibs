@@ -1668,3 +1668,153 @@ Processing by PetsController#index as HTML
 Completed 200 OK in 400ms (Views: 27.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-16 16:37:43 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 65ms (Views: 60.2ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&type=cat&location=&description=&commit=Search" for 127.0.0.1 at 2017-10-16 16:37:56 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "type"=>"cat", "location"=>"", "description"=>"", "commit"=>"Search"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 512ms (Views: 28.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 16:47:27 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 74ms (Views: 71.0ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&type=cat&location=&description=&commit=Search" for 127.0.0.1 at 2017-10-16 16:47:35 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "type"=>"cat", "location"=>"", "description"=>"", "commit"=>"Search"}
+Completed 500 Internal Server Error in 291ms
+
+
+  
+NoMethodError (undefined method `find_pet' for #<PetsController:0x007fb239730378>):
+  
+app/controllers/pets_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2017-10-16 16:47:56 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 134ms (Views: 127.2ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&type=cat&location=&description=&commit=Search" for 127.0.0.1 at 2017-10-16 16:47:59 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "type"=>"cat", "location"=>"", "description"=>"", "commit"=>"Search"}
+Completed 500 Internal Server Error in 32ms
+
+
+  
+NoMethodError (undefined method `find_pet' for Pet (call 'Pet.connection' to establish a connection):Class
+Did you mean?  find_each):
+  
+app/controllers/pets_controller.rb:4:in `index'
+Started GET "/pets?utf8=%E2%9C%93&type=cat&location=&description=&commit=Search" for 127.0.0.1 at 2017-10-16 17:20:46 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "type"=>"cat", "location"=>"", "description"=>"", "commit"=>"Search"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 957ms (Views: 66.4ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&type=cat&location=&description=&commit=Search" for 127.0.0.1 at 2017-10-16 17:20:58 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "type"=>"cat", "location"=>"", "description"=>"", "commit"=>"Search"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 818ms (Views: 48.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:21:15 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 44ms (Views: 39.6ms)
+
+
+Started GET "/pets?utf8=%E2%9C%93&type=cat&location=&description=&commit=Search" for 127.0.0.1 at 2017-10-16 17:21:17 -0700
+Processing by PetsController#index as HTML
+  Parameters: {"utf8"=>"✓", "type"=>"cat", "location"=>"", "description"=>"", "commit"=>"Search"}
+  Rendering pets/index.html.erb within layouts/application
+  Rendered pets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 770ms (Views: 26.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:38:34 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 89ms (Views: 83.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:40:31 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 56ms (Views: 53.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:41:33 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 66ms (Views: 61.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:46:30 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 45.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:47:44 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+SyntaxError (/Users/cassi/Documents/CodeProjects/PersonalProjects/PetLibs/app/views/home/index.html.erb:20: syntax error, unexpected ',', expecting ')'
+...append=( text_field_tag(:name), placeholder: 'Name' );@outpu...
+...                               ^):
+  
+app/views/home/index.html.erb:20: syntax error, unexpected ',', expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:53:28 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 125ms (Views: 113.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:53:50 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 53ms (Views: 49.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:54:21 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 59ms (Views: 56.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-16 17:54:29 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 32.1ms)
+
+

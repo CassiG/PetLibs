@@ -4,7 +4,7 @@ require 'dotenv/load'
 class PetsController < ApplicationController
 
   def index
-    petData = 'http://api.petfinder.com/pet.find?key=' + ENV['PETFINDER_KEY'] + '&animal=' + params["type"] + '&location=98133&format=json'
+    petData = 'http://api.petfinder.com/pet.find?key=' + ENV['PETFINDER_KEY'] + '&animal=' + params["type"] + + '&size=' + params["size"] + '&location=' + params["location"] + '&format=json'
 
     response = HTTParty.get(petData)
     @pet = response.parsed_response
@@ -13,7 +13,7 @@ class PetsController < ApplicationController
     @petList = []
 
     @pets.each do |pet|
-      if pet['description']['$t'].include?(" #{params['description']} ")
+      if pet['description']['$t'].include?(" #{params['description']}  ")
         @petList << pet
       end
     end

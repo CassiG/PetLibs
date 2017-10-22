@@ -16,8 +16,9 @@ class PetsController < ApplicationController
 
     @pets.each do |pet|
 
+      petDescription = pet['description']['$t']
 
-      if pet['description']['$t'].include?(" #{params['activity1']}  ") ||
+      if petDescription != nil && petDescription.include?(" #{params['activity']}  ") ||
             pet['description']['$t'].include?(" #{params['adjective1']}  ") ||
             pet['description']['$t'].include?(" #{params['adjective']}  ")
         @petDescriptionList << pet
